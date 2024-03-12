@@ -11,9 +11,9 @@ const App = () => {
   }
   return (
     <div>
-        <p>Enter your name:</p>
+        <label>Enter your name:</label>
         <input  value={name} onChange = {changeName} type="text"/>
-        {name && <p>Enter your name:Hello {name}!</p>}
+        {name && <p>Hello {name}!</p>}
     </div>
   )
 }
